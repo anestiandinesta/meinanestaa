@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>Web Pertemuan 2</title>
+    </head>
+    <style> 
+        body {
+            background-color: rgb(239, 239, 239);
+        }
+    </style>
+    <body>
+        <!-- ini untuk uppercase -->
+        Hello World!<br>
+        Nama saya <b>Anesta</b> <u>Meina Nestiandi</u>
+        <p>
+            Tempat Lahir di <b><i>Sukabumi</i></b>
+        </p>
+        <p>
+            <b><i><u>ini campur bold italalic underline</u></i></b>
+        </p>
+        <p style="color: #31d5c5; font-size: 24; font-family: monospace;" > 
+            ini text berwarna
+        </p>
+        <h1>Heading1</h1>
+        <h2>Heading2</h2>
+        <h3>Heading3</h3>
+        <h4>Heading4</h4>
+        <h5>Heading5</h5>
+        <a href="http://google.com" target="_blank">Ini memuju google</a>
+
+        <br></br>
+        Yang mau nitip minum
+        <ul style="list-style: georgian;">
+            <li>Yesi - es teh manis</li>
+            <li>Mikha - kopi gula aren</li>
+            <li>Anes - matcha latte</li>
+        </ul>
+       
+        <br></br>
+        Foto jahim jmetz
+        <br>
+        <img src="foto.JPG" width="200px">
+
+        <br></br>
+        <table border="1" width="100%" style="text-align: center;">
+            <tr height = "50px">
+                <td><img src="foto2.png" width="100px"></td>
+                <td>baris 1 kolom b</td>
+                <td>baris 1 kolom c</td>
+            </tr>
+            <tr>
+                <td><b>baris 2 kolom a</b></td>
+                <td><i>baris 2 kolom b</i></td>
+                <td><u>baris 2 kolom c</u></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td colspan="2">2</td>
+            </tr>
+            <tr>
+                <td rowspan="2">merge</td>
+                <td>5</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>6</td>
+            </tr>
+        </table>
+        <br>
+        </br>
+        <form action="save.html">
+            <input type="text" placeholder="input nama"><br>
+            <input type="number" placeholder="input umur"><br>
+            <input type="password" placeholder="input password"><br>
+            <textarea placeholder="input alamat" rows="5"></textarea>
+            <br>
+            <input type="radio" id="lakilaki" name="jenis_kelamin">
+            <label for="lakilaki">Laki-laki</label>
+            <input type="radio" id="perempuan" name="jenis_kelamin">
+            <label for="perempuan">Perempuan</label><br>
+
+            <select>
+                <option value="lakilaki">Laki-laki</option>
+                <option value="perempuan">Perempuan</option>
+            </select>
+
+            <button type="submit">Save</button>
+            <button type="button" onclick="alert('anda batal');">Batal</button>
+        </form>
+    </body>
+</html>
